@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>bulbi</title>
+	<link rel="shortcut icon" href="img/pizza.png" type="image/png">
+	<link rel="shortcut icon" href="http://csomosb.com/pizza.png" type="image/png">
+	<link href="css/ecommerce_style.css" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+	
+	<section class="navbar">
+		<div class="navbar-logo">bulbi</div>
+		<div class="navbar-menu">
+			<ul class="navbar-list">
+				<li class="navbar-menu-item"><a href="">Plants</a></li>
+				<li class="navbar-menu-item"><a href="">Pots</a></li>
+				<li class="navbar-menu-item"><a href="">Tools</a></li>
+				<li class="navbar-menu-item"><a href="">About</a></li>
+				<li class="navbar-menu-item navbar-menu-item-offers"><a href="">Offers</a></li>
+				<li class="navbar-menu-item"><a href="">Account</a></li>
+			</ul>
+			<div class="navbar-icons">
+			<div class="search-div">
+				<form action="">
+					<input class="search-input" type="text" placeholder="Search...">
+					<button class="search-btn" type="submit"><i class="fa fa-search"></i></button>
+				</form>
+			</div>
+		</div>
+		</div>		
+	</section>
+	
+	<div class="body-wrapper">
+	<div class="main-wrapper">
+	<section class="section-product-desc">
+		<div class="nav-crumbtrail">
+			<ul class="navtrail-list">
+				<li class="navtrail-list-item">Home</li>
+				<li class="navtrail-list-item">Plants</li>
+				<li class="navtrail-list-item-last">Home & Office</li>
+			</ul>
+		</div>
+		<div class="heart-icon">3
+			<div class="tooltiptext">Log in to save favourites</div>
+		</div>
+		<div class="product-name">Aloe vera</div>		
+		<div class="product-name-latin">Aloe barbadensis</div>
+		<div class="product-price">£10</div>
+		<div class="product-desc-list">
+			<ul>
+				<li class="product-desc-list-item">Great indoor plant that stores water in its leaves</li>
+				<li class="product-desc-list-item">Easily overwatered so water moderately every 7-14 days</li>
+				<li class="product-desc-list-item">Happiest in a bright spot with lots of indirect sunshine</li>
+				<li class="product-desc-list-item">Toxic to pets and children if eaten</li>
+			</ul>
+		</div>
+		<div class="product-desc-icons">
+			<img class="product-desc-icons-icon" src="" alt="">
+			<span class="product-desc-icons-text">Needs lot of light.</span>
+			<img class="product-desc-icons-icon" src="" alt="">
+			<span class="product-desc-icons-text">Water moderately.</span>
+			<img class="product-desc-icons-icon" src="" alt="">
+			<span class="product-desc-icons-text">Harmful if eaten.</span>
+		</div>
+		<div class="product-buttons">
+			<div class="product-quantity-btn">
+				<span class="product-quantity-left">Quantity:</span>
+				<span class="product-quantity-right quantity-button">
+					<button class="product-quantity" type="button">-</button>
+					<span class="product-quantity-num">1</span>
+					<button class="product-quantity" type="button">+</button>
+				</span>
+			</div>
+			<div class="product-basket-btn">
+				<button class="product-basket" type="button">Add to basket</button>
+			</div>
+		</div>
+		<div class="product-desc-ship">
+			<p>Delivery is free above £40. Below that standard delivery costs £5 while express delivery costs £10. For information on returns see our Returns Policy under Terms.</p>
+		</div>
+	</section>
+	
+	<section class="product-gallery">
+	
+		<div class="product-image-main">			
+			<img class="gallery-image-large" src="img/1.jpg">
+		</div>
+		<div class="product-image-main">			
+			<img class="gallery-image-large" src="img/2.jpg">
+		</div>
+		<div class="product-image-main">			
+			<img class="gallery-image-large" src="img/3.jpg">
+		</div>		
+		
+		<div class="product-image-thumbnail">
+			<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+			
+			<div class="thumbnail-img">			
+				<img class="gallery-image-small" src="img/1.jpg" onclick="currentSlide(1)" alt="">
+			</div>
+			<div class="thumbnail-img">			
+				<img class="gallery-image-small" src="img/2.jpg" onclick="currentSlide(2)" alt="">
+			</div>
+			<div class="thumbnail-img">			
+				<img class="gallery-image-small" src="img/3.jpg" onclick="currentSlide(3)" alt="">
+			</div>
+			
+			<a class="next" onclick="plusSlides(1)">&#10095;</a>
+		</div>
+	</section>
+	
+	<section class="section-related-products">
+		<div class="related-title">Goes well with...</div>
+		<div class="related-products">
+			<div class="related-prod-details details-1">
+				<div class="related-image-div">
+					<img class="related-image" id="img4" src="img/4.jpg" alt="Pot">
+				</div>
+				<span class="related-text">Pot</span>				
+				<div class="related-quantity-div">
+					<span class="related-price">£10</span>
+					<div class="quantity-button related-quantity-btn">
+						<button class="related-quantity" type="button">-</button>
+						<span class="related-quantity-num">1</span>
+						<button class="related-quantity" type="button">+</button>
+					</div>
+					<button class="related-quantity-add" type="button">Add</button>
+				</div>
+			</div>
+			
+			<div class="related-prod-details details-2">
+				<div class="related-image-div">
+					<img class="related-image" src="img/5.jpg" alt="Scissors">
+				</div>
+				<span class="related-text">Scissors</span>				
+				<div class="related-quantity-div">
+					<span class="related-price">£10</span>
+					<div class="quantity-button related-quantity-btn">
+						<button class="related-quantity" type="button">-</button>
+						<span class="related-quantity-num">1</span>
+						<button class="related-quantity" type="button">+</button>
+					</div>
+					<button class="related-quantity-add" type="button">Add</button>
+				</div>
+			</div>
+			
+			<div class="related-prod-details details-3">
+				<div class="related-image-div">
+					<img class="related-image" src="img/6.jpg" alt="Can">
+				</div>
+				<span class="related-text">Can</span>				
+				<div class="related-quantity-div">
+					<span class="related-price">£10</span>
+					<div class="quantity-button related-quantity-btn">
+						<button class="related-quantity" type="button">-</button>
+						<span class="related-quantity-num">1</span>
+						<button class="related-quantity" type="button">+</button>
+					</div>
+					<button class="related-quantity-add" type="button">Add</button>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="section-footer">
+		<div class="footer-about">
+			<div class="list-label">About</div>
+			<ul>
+				<li class="list-item"><a href="" target="_blank" class="">About bulbi</a></li>
+				<li class="list-item"><a href="" target="_blank" class="">FAQ</a></li>
+				<li class="list-item"><a href="" target="_blank" class="">Contact</a></li>
+				<li class="list-item"><a href="" target="_blank" class="">Careers</a></li>
+			</ul>
+		</div>
+		<div class="footer-communication">
+			<div class="list-label">Sign up for our newletter</div>
+			<div class="footer-form">
+				<form action="">
+					<input type="text" name="Newsletter" placeholder="Email address">
+					<input class="join-btn" type="submit" value="Join">
+				</form>
+			</div>
+			<div class="footer-icons">
+				<a href="" target="_blank" class=""><img class="" src="" alt="Twitter"></a>
+				<a href="" target="_blank" class=""><img class="" src="" alt="Facebook"></a>
+				<a href="" target="_blank" class=""><img class="" src="" alt="Instagram"></a>
+			</div>
+		</div>
+		<div class="footer-terms">
+			<div class="list-label">Terms</div>
+			<ul>
+				<li class="list-item"><a href="" target="_blank" class="">Terms of Service</a></li>
+				<li class="list-item"><a href="" target="_blank" class="">Privacy Policy</a></li>
+				<li class="list-item"><a href="" target="_blank" class="">Returns Policy</a></li>
+				<li class="list-item"><a href="" target="_blank" class="">Cookies</a></li>
+			</ul>
+		</div>
+	</section>
+	</div>
+	</div>
+	
+<script type="text/javascript" src="script/ecommerce_script.js"></script>	
+</body>
+
